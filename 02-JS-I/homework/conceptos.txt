@@ -1,0 +1,24 @@
+Variables: Las variables son formas de almacenamiento que JavaScript nos ofrece para guardar "algo" en ellas. Como una billetera. Allí puedes guardar letras, palabras, numeros, operaciones matemáticas, funciones, etc... Para luego usar eso que guardamos, más adelante cuando lo necesitemos.
+
+String: Es una cadena de texto, y siempre va dentro de comillas, bien sea una sola letra o una oración completa, incluso números y signos de exclamación, siempre y cuando esté dentro de comillas, será un string.
+
+Funciones: Es una parte del código que encierra dentro de ella ciertos parámetros y órdenes que le damos al programa para ejecutarlos luego, en cualquier momento que lo necesitemos. 
+
+A la función le damos una serie de argumentos para que, de acuerdo a ellos actúe y ejecute la tarea que necesitamos. 
+
+Finalmente le pedimos que nos dé una respuesta de acuerdo a las tareas que le hemos asignado con la palabra reservada "return".
+
+Sólo necesitamos "invocar" esa función más adelante, a través de su nombre seguido de "()", y ya está. Estamos poniendo en acción a esa función.
+
+Declaraciones if: Nos permite darle una orden de ejecución al programa siempre y cuando cumpla ciertos requisitos. Por ejemplo: 
+si quiero que el programa me diga si un numero es mayor o no, a 5, lo haríamos de la siguiente manera:
+var numero = 6
+if( numero > 5 ){
+    return "el numero es mayor que 5";
+}else{
+    return "el numero es menor que 5";
+}
+Esto quiere decir que:
+Si el "número" es mayor que 5, que me enseñe el texto introducido entre las primeras llaves, de lo contrario (else), que me muestre el texto que encierran las segundas llaves.
+
+Valores booleanos: Los valores booleanos son la representación del código binario (0 y 1) en JavaScript, y sólo admite dos posibles valore: true y false. Lo utilizamos para validaciones en el programa, si algo es cierto(true) continuamos ejecutando el programa, si no(false), detenemos el programa o pasamos a otra tarea.
