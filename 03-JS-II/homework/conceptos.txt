@@ -1,0 +1,8 @@
+Ciclo for: Es un ciclo que nos permite darle ciertas ordenes a un programa, para que se ejecuten mientras ciertos parámetros establecidos en el mismo ciclo, se estpen cumpliendo. Al momento de NO cumplirse más, esos parámetros, el ciclo se rompe, y salimos de él.
+
+Operadores lógicos `&&`, `||`, `!`: 
+&&: signigica "y" o "and". Se usa para vincular dos parámetros que se le pasan a una orden en un programa, ejm: si a = 2 && <= ('y') b = 3, entonces ejecuta el programa. Quiere decir que si a vale 2 y b vale 3, el programa se ejecutará, si uno de los dos tiene otro valor, el programa no se ejecuta.
+
+|| = operador lógico 'ó'. Similar al &&, pero éste permite, que, si de dos parámetros, uno es correcto o se cumple, el programa se puede ejecutar.
+
+'!': Es un operador lógico que significa "distinto de" y se adjunta a otro signo para representar un valor contrario. Por ejemplo, si se adjunta al signo "=" estamos diciendo que el valor tiene que ser DISTINTO al mencionado. Por ejm: if a != 5; <= quiere decir que si a tiene un valor distinto a 5, sigue adelante.
