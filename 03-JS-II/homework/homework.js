@@ -223,6 +223,12 @@ function doWhile(numero) {
     repeat++;
   }while(repeat < 8);
   return numero;
+  /* CON CICLO FOR
+  for (var i = 0; i < 8; i++){
+    numero+=5;
+  };
+  return numero;
+  */
 }
 
 
